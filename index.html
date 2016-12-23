@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>World Bank Global Development Sprint</title>
+    <link type="text/css" rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <li>
+            <button id="btnRestart" class="btn" style="display: none">↷ Restart</button>
+            <button id="btnStart" class="btn" style="display: none">► Play</button>
+            <button style="" id="btnPause" class="btn">▌▌Pause</button>
+            <button style="" id="btnStop" class="btn">█▌Stop</button>
+        </li>
+        <li>
+            <label for="page">Pages</label>
+            <select name="page" id="page">
+                <option value="">Select a page</option>
+            </select>
+        </li>
+        <li class="plm">
+            <label for="typeParam">Coloring by:</label>
+            <select name="typeParam" id="typeParam">
+                <option value="fileType" selected="selected">File Type</option>
+                <option value="loadTimeMS">Load Time</option>
+            </select>
+        </li>
+<!--
+        <li>
+            <label for="fiscalYear">Fiscal year:</label>
+            <select name="fiscalYear" id="fiscalYear">
+                <option value="2013" selected="selected">2013</option>
+            </select>
+            <button id="btnReload" class="btn" style="display: none">⇒ Reload</button>
+        </li>
+-->
+    </ul>
+</div>
+<div id="info">
+    <ul>
+        <li>Options
+            <ul>
+                <li>
+                    <input id="chLeg" checked="checked" type="checkbox">
+                    <label for="chLeg">Show legend</label>
+                </li>
+                <li>
+                    <input id="chEdge" type="checkbox">
+                    <label for="chEdge">Show all edges</label>
+                </li>
+                <li>
+                    <input id="chTrack" checked="checked" type="checkbox">
+                    <label for="chTrack">Show tracks</label>
+                </li>
+                <li>
+                    <input id="chTail" checked="checked" type="checkbox">
+                    <label for="chTail">Fading tail</label>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="assets/jquery.js"></script>
+<script type="text/javascript" src="assets/d3.js"></script>
+<script type="text/javascript" src="assets/progressbar.js"></script>
+<script type="text/javascript" src="assets/tooltip.js"></script>
+
+<script type="text/javascript" src="assets/vendor.js"></script>
+<script type="text/javascript" src="assets/app.js"></script>
+<script type="text/javascript" src="assets/dropdown.js"></script>
+
+<script type="text/javascript" src="assets/index.js"></script>
+
+
+</body>
+</html>

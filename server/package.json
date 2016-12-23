@@ -1,0 +1,29 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "NCC Hackathon Project. The goal is to map the locations of the several requests for a specific url",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pedroluisf/Spider"
+  },
+  "main": "www",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "mysql": "^2.12.0",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Ferreira"
+}
